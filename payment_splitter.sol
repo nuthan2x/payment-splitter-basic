@@ -3,7 +3,7 @@
 pragma solidity >=0.8.16;
 
 contract payment_splitter{
-    address public owner = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    address public owner = ""; // set initially to save constructor gas
     mapping(address => uint) public share_ofuser;
 
 /*
